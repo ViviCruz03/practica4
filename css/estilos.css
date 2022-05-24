@@ -1,0 +1,106 @@
+*{
+    margin: 0px auto; 
+    padding: 0px;
+}
+@media(min-width: 799px) {
+    
+body{
+    background-color: bisque; 
+}
+
+header{
+    background-color: teal;
+    display: flex;
+    height: 200px;
+    width: 1100px;
+}
+
+#logo{
+    background-color: rgb(201, 228, 199);
+    color: rgb(57, 129, 54); /*Color para las letras*/
+    width: 300px;
+    display: flex;
+    justify-content: center; /* Justificado en el centro de la pagina*/
+    align-items: center;
+}
+
+#menu{
+    background-color: rgb(15, 104, 27);
+    color: aliceblue;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 1100px;
+    height: 810px;
+    display: flex; /* Justificado en el centro de la pagina*/
+}
+
+aside{
+    width: 300px;
+    background-color: rgb(94, 123, 145);
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    width: 800px;
+    background-color: rgb(152, 178, 197);
+}
+
+#todo {
+    margin: 15px;
+    height: 250px;
+    display: flex;
+    border: solid 1px #000;
+    background-color: rgb(179, 105, 46);
+}
+
+#Foto {
+    border: solid 1px #000;
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    
+    }
+
+#Contenido {
+    display: block;
+    margin: 20px;
+    width: 520px;
+}
+
+#Titulo {
+    text-align: right; /* Ajustar el texto a la derecha*/
+    margin: 0px 20px;
+    padding: 0px 0px;
+    color: white;
+}
+footer{
+    width: 1100px;
+    height: 200px; /*Tamaño de altura*/
+    background-color: rgb(15, 104, 27);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 20px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    margin-top: 20px;
+    margin-block-end: 10px;
+}
+img#bts{
+width: 200px;
+height: 180px;
+}
+}

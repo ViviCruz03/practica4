@@ -1,0 +1,130 @@
+
+*{
+    margin: 0px auto; 
+    padding: 0px;
+}    
+
+body{
+    background-color: bisque; 
+    width: 799;
+}
+
+header{
+    background-color:  rgb(224, 164, 174);
+    display: flex;
+    height: 100px;
+    width: 100%;
+    flex-direction: column;
+}
+
+#logo{
+    background-color: rgb(224, 164, 174);
+    color: rgb(131, 48, 48); /*Color para las letras*/
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center; /* Justificado en el centro de la pagina*/
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(100, 33, 53);
+    width: 100%;
+    list-style: none;
+    font-size: 2rem;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(255, 240, 240);
+    padding: 15px;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(156, 40, 46);
+    padding: 15px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex; /* Justificado en el centro de la pagina*/
+    flex-direction: column;
+}
+
+aside{
+    width: 100%;
+    background-color: rgb(202, 164, 188);
+    justify-content: center;
+    align-items: center;
+    order: 2;
+}
+
+article{
+    width: 100%;
+    background-color: rgb(231, 218, 218);
+    order: 1;
+}
+
+#todo {
+    margin: 15px;
+    height: 250px;
+    display: flex;
+    border: solid 1px #000;
+    background-color: rgba(233, 122, 122, 0.445);
+}
+
+#Foto {
+    border: solid 1px #000;
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    
+    }
+
+#Contenido {
+    display: block;
+    margin: 20px;
+    width: 100%;
+}
+
+#Titulo {
+    text-align: right; /* Ajustar el texto a la derecha*/
+    margin: 0px 20px;
+    padding: 0px 0px;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 200px; /*Tamaño de altura*/
+    background-color: rgb(68, 6, 27);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 20px;
+}
+
+img{
+    width: 100%;
+    height: 880px;
+    display: flex;
+    margin-top: 20px;
+    margin-block-end: 10px;
+}
+img#bts{
+width: 100%;
+height: 880px;
+}
+
+#a{
+width: 100%;
+height: 200px;
+}
+
+li{
+    border-bottom: 1px solid white;
+}
+
